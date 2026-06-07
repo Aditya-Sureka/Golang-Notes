@@ -35,9 +35,8 @@ func main() {
 	}
 
 	/* Range Loops -> 
-	// The range keyword is used to iterate over elements in a variety of data structures,
-	// such as arrays, slices, maps, and strings. It provides a convenient way to access both 
-	// the index and the value of each element in the data structure.
+	// The range keyword is used to iterate over elements in a variety of data structures, such as arrays, slices, maps, and strings. It provides a convenient way to 
+	// access both the index and the value of each element in the data structure.
 	*/
 
 	for k := range 3 {
