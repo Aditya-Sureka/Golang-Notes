@@ -36,14 +36,16 @@ func main() {
 		fmt.Println("no")
 	} 
 
-	// We can declare a variable in the if statement and use it in the else-if and else block as well.
+	// We can declare a variable in the if statement and use it in the else-if and else block as well..
 	if age := 15; age >= 18 {
 		fmt.Println("person is adult", age)
 	} else if age >= 12 {
 		fmt.Println("person is teenager", age)
 	}
 
-	/* TERNARY OPERATOR -> Go does not have a ternary operator like other languages, but we can achieve similar functionality using if-else statements. */
+	/* TERNARY OPERATOR -> Go does not have a ternary operator like 
+	other languages, but we can achieve similar functionality
+	using if-else statements. */
 	var number = 10
 	var result string
 	if number%2 == 0 {
